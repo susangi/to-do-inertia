@@ -1,11 +1,13 @@
 import React from "react";
-import Navbar from "@/Components/Navbar/NavbarComponent";
+import App from "@/Layouts/App";
 
 function Dashboard() {
     return (
-        <div>
-            <Navbar />
-        </div>
+        <App>
+            <p> text</p>
+            <p> text</p>
+            <p> text</p>
+        </App>
     );
 }
 
